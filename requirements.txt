@@ -1,0 +1,8 @@
+python-dotenv==1.0.1
+pytest==8.3.4
+
+# Dataframe
+ibis-framework[duckdb,examples]==9.5.0
+
+# IceBerg
+pyiceberg[sql-sqlite]==0.8.1

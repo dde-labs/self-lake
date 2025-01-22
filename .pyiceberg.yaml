@@ -1,0 +1,10 @@
+catalog:
+  # NOTE: SQLite is not built for concurrency, you should use this catalog for
+  #   exploratory or development purposes.
+  sandbox:
+    type: sql
+    uri: sqlite:///./tmp/pyiceberg.db
+    warehouse: file:////./tmp
+    init_catalog_tables: true
+    pool_pre_ping: true
+    echo: true
