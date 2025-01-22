@@ -5,9 +5,18 @@ DeltaLake, IceBerg, etc.
 
 ## :round_pushpin: Prerequisite
 
+PyIceBerg Config;
+
 ```dotenv
-PYICEBERG_HOME=<PROJECT-PATH>
+PYICEBERG_CATALOG__SANDBOX__TYPE=sql
+PYICEBERG_CATALOG__SANDBOX__URI=sqlite:///./tmp/pyiceberg.db
+PYICEBERG_CATALOG__SANDBOX__WAREHOUSE=file://./tmp
+PYICEBERG_CATALOG__SANDBOX__INIT_CATALOG_TABLES=true
+PYICEBERG_CATALOG__SANDBOX__POOL_PRE_PING=true
+PYICEBERG_CATALOG__SANDBOX__ECHO=false
 ```
+
+Read more on the [Official Document](https://py.iceberg.apache.org/)
 
 ## :speech_balloon: Contribute
 
