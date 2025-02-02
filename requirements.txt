@@ -10,3 +10,6 @@ pyiceberg[sql-sqlite]==0.8.1
 
 # Deltalake
 deltalake==0.24.0
+
+# Hudi
+hudi==0.2.0

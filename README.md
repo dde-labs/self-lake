@@ -5,7 +5,7 @@ DeltaLake, IceBerg, etc.
 
 ## :round_pushpin: Prerequisite
 
-PyIceBerg Config;
+IceBerg Config;
 
 ```dotenv
 PYICEBERG_CATALOG__SANDBOX__TYPE=sql
@@ -16,7 +16,7 @@ PYICEBERG_CATALOG__SANDBOX__POOL_PRE_PING=true
 PYICEBERG_CATALOG__SANDBOX__ECHO=false
 ```
 
-Read more on the [Official Document](https://py.iceberg.apache.org/)
+:fast_forward: Read more on the [Official Document](https://py.iceberg.apache.org/)
 
 ## :speech_balloon: Contribute
 
