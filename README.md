@@ -3,6 +3,12 @@
 This project was created for research and develop with lake storage engines like
 DeltaLake, IceBerg, etc.
 
+**This project will focus on**:
+
+- Open table file format such as Deltalake, Iceberg, and Hudi (I think I can add
+  Hive on this project.)
+- Storage of these open table format such as MinIO, and HDFS.
+
 ## :round_pushpin: Prerequisite
 
 IceBerg Config;
